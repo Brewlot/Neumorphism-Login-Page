@@ -1,0 +1,109 @@
+body {
+  background-color: #2c2f33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.login-container {
+  background-color: #2c2f33;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 300px;
+  transition: box-shadow 0.1s;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 4px 4px 8px #1a1c1e, inset -4px -4px 8px #3e4247;
+  background-color: #2c2f33;
+  color: #fff;
+}
+
+.show-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #fff;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.sign-in-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  box-shadow: 4px 4px 8px #1a1c1e, -4px -4px 8px #3e4247;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.sign-in-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 6px 6px 12px #1a1c1e, -6px -6px 12px #3e4247;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.social-login button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #2c2f33;
+  box-shadow: 4px 4px 8px #1a1c1e, -4px -4px 8px #3e4247;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.social-login button:hover {
+  transform: translateY(-3px);
+  box-shadow: 6px 6px 12px #1a1c1e, -6px -6px 12px #3e4247;
+}
+
+p {
+  color: #fff;
+}
+
+a {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.github-btn svg {
+  fill: #fff;
+}
